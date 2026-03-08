@@ -5,6 +5,7 @@ import CTA from "./components/sections/CTA";
 import Cases from "./components/sections/Cases";
 import Contact from "./components/sections/Contact";
 import Hero from "./components/sections/Hero";
+import PrivacyPolicy from "./components/sections/PrivacyPolicy";
 import Process from "./components/sections/Process";
 import Solutions from "./components/sections/Solutions";
 import { siteContent } from "./content/siteContent";
@@ -56,6 +57,7 @@ function App() {
         <Cases content={content.cases} />
         <CTA content={content.cta} />
         <Contact content={content.contact} />
+        <PrivacyPolicy content={content.privacyPolicy} />
       </main>
 
       <Footer content={content.footer} />

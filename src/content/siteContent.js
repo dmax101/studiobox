@@ -14,6 +14,7 @@ export const siteContent = {
         { label: "Processo", href: "#process" },
         { label: "Cases", href: "#cases" },
         { label: "Contato", href: "#contact" },
+        { label: "Privacidade", href: "#privacy-policy" },
       ],
       primaryCta: {
         label: "Iniciar projeto",
@@ -202,6 +203,80 @@ export const siteContent = {
         "Roadmap com fases de entrega",
       ],
     },
+    privacyPolicy: {
+      pretitle: "Dagger Dice",
+      title: "Politica de Privacidade",
+      description:
+        "Politica de privacidade do aplicativo Dagger Dice com operacao local e sem coleta de dados em servidores externos.",
+      sections: [
+        {
+          title: "1. Visao Geral",
+          paragraphs: [
+            "Dagger Dice e um aplicativo auxiliar para o jogo de RPG de mesa Daggerheart. E uma ferramenta local para rastrear rolagens de dados, fichas de Esperanca e Medo, e o historico de sessao do seu grupo.",
+            "Nao coletamos, transmitimos nem armazenamos nenhuma informacao pessoal em servidores externos.",
+          ],
+        },
+        {
+          title: "2. Dados Armazenados no Seu Dispositivo",
+          paragraphs: [
+            "Todos os dados sao armazenados exclusivamente no seu dispositivo usando o sistema de armazenamento local do Android (SharedPreferences). Isso inclui:",
+            "Esses dados nunca saem do seu dispositivo. Eles nao sao enviados para nenhum servidor, servico de nuvem ou terceiro. Desinstalar o aplicativo remove todos os dados armazenados.",
+          ],
+          bullets: [
+            "Nomes de jogadores que voce inserir",
+            "Nomes de grupo/sessao que voce criar",
+            "Contagem de fichas de Esperanca e Medo",
+            "Historico de rolagens da sessao atual",
+            "Sua preferencia de idioma",
+          ],
+        },
+        {
+          title: "3. Sem Acesso a Internet",
+          paragraphs: [
+            "Dagger Dice nao requer nem utiliza conexao com a internet. Nenhuma requisicao de rede e feita durante o uso normal do aplicativo.",
+          ],
+        },
+        {
+          title: "4. Sem Analise ou Rastreamento",
+          paragraphs: [
+            "Nao utilizamos SDKs de analise, ferramentas de relatorio de falhas, redes de publicidade ou bibliotecas de rastreamento. Nenhum dado de uso e coletado ou monitorado.",
+          ],
+        },
+        {
+          title: "5. Sem Conta Necessaria",
+          paragraphs: [
+            "Dagger Dice nao exige que voce crie conta, faca login ou forneca informacoes pessoais como nome, e-mail ou numero de telefone.",
+          ],
+        },
+        {
+          title: "6. Privacidade de Criancas",
+          paragraphs: [
+            "Dagger Dice nao coleta intencionalmente nenhuma informacao de criancas menores de 13 anos. Como nenhum dado pessoal e coletado, o aplicativo e seguro para usuarios de todas as idades.",
+          ],
+        },
+        {
+          title: "7. Servicos de Terceiros",
+          paragraphs: [
+            "Dagger Dice nao se integra com servicos de terceiros, redes sociais, processadores de pagamento ou plataformas de publicidade.",
+          ],
+        },
+        {
+          title: "8. Alteracoes nesta Politica",
+          paragraphs: [
+            "Se atualizarmos esta politica de privacidade, a nova versao sera disponibilizada nesta pagina. O uso continuado do aplicativo apos qualquer alteracao constitui aceitacao da politica atualizada.",
+          ],
+        },
+        {
+          title: "9. Contato",
+          paragraphs: [
+            "Se voce tiver duvidas ou preocupacoes sobre esta politica de privacidade, entre em contato:",
+          ],
+          email: "contact@studiobox101.com",
+        },
+      ],
+      lastUpdatedLabel: "Ultima atualizacao",
+      lastUpdatedValue: "March 8, 2026",
+    },
     footer: {
       summary:
         "StudioBox e uma softhouse especializada em solucoes digitais, aplicativos e plataformas sob medida.",
@@ -210,6 +285,7 @@ export const siteContent = {
         { label: "Processo", href: "#process" },
         { label: "Cases", href: "#cases" },
         { label: "Contato", href: "#contact" },
+        { label: "Privacidade", href: "#privacy-policy" },
       ],
       legal: "(c) 2026 StudioBox. Todos os direitos reservados.",
     },
@@ -229,6 +305,7 @@ export const siteContent = {
         { label: "Process", href: "#process" },
         { label: "Cases", href: "#cases" },
         { label: "Contact", href: "#contact" },
+        { label: "Privacy", href: "#privacy-policy" },
       ],
       primaryCta: {
         label: "Start project",
@@ -418,6 +495,80 @@ export const siteContent = {
         "Roadmap with clear delivery phases",
       ],
     },
+    privacyPolicy: {
+      pretitle: "Dagger Dice",
+      title: "Privacy Policy",
+      description:
+        "Privacy policy for the Dagger Dice app, built as a local-first experience with no personal data collection on external servers.",
+      sections: [
+        {
+          title: "1. Overview",
+          paragraphs: [
+            "Dagger Dice is a companion app for the Daggerheart tabletop roleplaying game. It is a local-only tool designed to track dice rolls, Hope and Fear tokens, and session history for your group.",
+            "We do not collect, transmit, or store any personal information on external servers.",
+          ],
+        },
+        {
+          title: "2. Data Stored on Your Device",
+          paragraphs: [
+            "All data is stored exclusively on your device using the Android local storage system (SharedPreferences). This includes:",
+            "This data never leaves your device. It is not sent to any server, cloud service, or third party. Uninstalling the app removes all stored data.",
+          ],
+          bullets: [
+            "Player names you enter",
+            "Party/session names you create",
+            "Hope and Fear token counts",
+            "Dice roll history for the current session",
+            "Your chosen language preference",
+          ],
+        },
+        {
+          title: "3. No Internet Access Required",
+          paragraphs: [
+            "Dagger Dice does not require or use an internet connection. No network requests are made during normal use of the app.",
+          ],
+        },
+        {
+          title: "4. No Analytics or Tracking",
+          paragraphs: [
+            "We do not use analytics SDKs, crash reporting tools, advertising networks, or tracking libraries. No data about your usage is collected or monitored.",
+          ],
+        },
+        {
+          title: "5. No Account Required",
+          paragraphs: [
+            "Dagger Dice does not require you to create an account, sign in, or provide personal information such as name, email, or phone number.",
+          ],
+        },
+        {
+          title: "6. Children's Privacy",
+          paragraphs: [
+            "Dagger Dice does not knowingly collect information from children under the age of 13. Since no personal data is collected, the app is safe for users of all ages.",
+          ],
+        },
+        {
+          title: "7. Third-Party Services",
+          paragraphs: [
+            "Dagger Dice does not integrate with third-party services, social networks, payment processors, or advertising platforms.",
+          ],
+        },
+        {
+          title: "8. Changes to This Policy",
+          paragraphs: [
+            "If we update this privacy policy, the new version will be made available on this page. Continued use of the app after any changes constitutes acceptance of the updated policy.",
+          ],
+        },
+        {
+          title: "9. Contact",
+          paragraphs: [
+            "If you have any questions or concerns about this privacy policy, please contact us at:",
+          ],
+          email: "contact@studiobox101.com",
+        },
+      ],
+      lastUpdatedLabel: "Last updated",
+      lastUpdatedValue: "March 8, 2026",
+    },
     footer: {
       summary:
         "StudioBox is a software house specialized in digital solutions, custom apps and enterprise-grade platforms.",
@@ -426,6 +577,7 @@ export const siteContent = {
         { label: "Process", href: "#process" },
         { label: "Cases", href: "#cases" },
         { label: "Contact", href: "#contact" },
+        { label: "Privacy", href: "#privacy-policy" },
       ],
       legal: "(c) 2026 StudioBox. All rights reserved.",
     },
