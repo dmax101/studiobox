@@ -8,6 +8,23 @@
       content="StudioBox is a software house focused on digital products, custom applications and scalable software solutions."
     />
     <title>StudioBox | Software House</title>
+    <script>
+      (function (location) {
+        if (location.search[1] !== "/") {
+          return;
+        }
+
+        var decodedPath = location.search
+          .slice(1)
+          .split("&")
+          .map(function (item) {
+            return item.replace(/~and~/g, "&");
+          })
+          .join("?");
+
+        window.history.replaceState(null, "", location.pathname.slice(0, -1) + decodedPath + location.hash);
+      })(window.location);
+    </script>
   </head>
   <body>
     <div id="root"></div>

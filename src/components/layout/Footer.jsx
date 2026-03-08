@@ -1,4 +1,5 @@
 import Container from "../ui/Container";
+import { Link } from "react-router-dom";
 
 function Footer({ content }) {
   return (
@@ -12,9 +13,9 @@ function Footer({ content }) {
         <div className="space-y-4 md:text-right">
           <nav className="flex flex-wrap gap-4 text-sm text-foreground/75 md:justify-end" aria-label="Footer navigation">
             {content.navigation.map((item) => (
-              <a key={item.href} href={item.href} className="transition-colors hover:text-foreground">
+              <Link key={item.to} to={item.to} className="transition-colors hover:text-foreground">
                 {item.label}
-              </a>
+              </Link>
             ))}
           </nav>
 

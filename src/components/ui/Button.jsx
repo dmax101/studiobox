@@ -1,4 +1,5 @@
 import { cn } from "../../lib/cn";
+import { Link } from "react-router-dom";
 
 const variantClasses = {
   primary:
@@ -41,6 +42,7 @@ function getLinkSecurityProps(href) {
 }
 
 function Button({
+  to,
   href,
   type = "button",
   variant = "primary",
@@ -50,6 +52,14 @@ function Button({
   ...rest
 }) {
   const classes = buildClassName(variant, size, className);
+
+  if (to) {
+    return (
+      <Link to={to} className={classes} {...rest}>
+        {children}
+      </Link>
+    );
+  }
 
   if (href) {
     return (
